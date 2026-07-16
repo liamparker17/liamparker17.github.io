@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Liam James Parker — Full-Stack Developer based in South Africa. Building web apps, mobile apps, trading bots, and automation tools.">
-  <meta property="og:title" content="Liam James Parker — Full-Stack Developer">
-  <meta property="og:description" content="Portfolio showcasing web apps, mobile apps, trading bots, desktop tools, and browser extensions.">
+  <meta name="description" content="Liam James Parker — Full-Stack Engineer based in South Africa. Production systems across the stack: regulated SaaS, AI-agent infrastructure, Go tooling, and applied ML.">
+  <meta property="og:title" content="Liam James Parker — Full-Stack Engineer">
+  <meta property="og:description" content="Portfolio spanning regulated multi-tenant SaaS, AI-agent infrastructure, Go tooling, and applied machine learning.">
   <meta property="og:image" content="https://liamparker17.github.io/assets/profile.jpg">
   <meta property="og:url" content="https://liamparker17.github.io">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
-  <title>Liam James Parker — Full-Stack Developer</title>
+  <title>Liam James Parker — Full-Stack Engineer</title>
 </head>
 <body>
 
@@ -31,8 +31,8 @@
   <section id="hero">
     <img src="assets/profile.jpg" alt="Liam James Parker" class="profile-photo">
     <h1>Liam James Parker</h1>
-    <p class="title">Full-Stack Developer</p>
-    <p class="bio">Full-stack developer based in South Africa, building tools that solve real business problems. From property ERP systems with double-entry accounting to ML-powered trading bots and mobile apps, I work across the full stack — web, mobile, desktop, and automation. I'm most at home with TypeScript, Python, and Kotlin.</p>
+    <p class="title">Full-Stack Engineer</p>
+    <p class="bio">I build production systems across the stack — regulated multi-tenant SaaS, AI-agent infrastructure, Go tooling, and applied machine learning. Based in South Africa, shipping in whichever language fits the problem: TypeScript on the web, Go for systems, Python for ML, Kotlin on Android, and the occasional descent into x86 assembly.</p>
     <div class="social-links">
       <a href="https://github.com/liamparker17" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -49,6 +49,130 @@
   <section id="projects">
     <h2 class="fade-in">Projects</h2>
     <div class="projects-grid">
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="SaaS">SaaS</span>
+        <h3>Property Management Ops</h3>
+        <p>Multi-tenant property management SaaS — leases, trust accounting, role-based access, and end-to-end POPIA compliance. Private production system in daily use.</p>
+        <div class="tech-badges">
+          <span class="badge">Next.js</span>
+          <span class="badge">Prisma</span>
+          <span class="badge">PostgreSQL</span>
+          <span class="badge">NextAuth</span>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="AI Agent Infra">AI Agent Infra</span>
+        <h3>Architect Tool</h3>
+        <p>The browser layer for AI agents — drives your real logged-in Chrome, learns workflows by watching you once, then replays them with zero LLM tokens. MCP + HTTP + REST.</p>
+        <div class="tech-badges">
+          <span class="badge">Go</span>
+          <span class="badge">Chrome DevTools Protocol</span>
+          <span class="badge">MCP</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/architect-tool" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="SaaS">SaaS</span>
+        <h3>Rescue Ops</h3>
+        <p>Business-rescue operations suite — financial triage, operations, and creditor pipeline apps in one monorepo with shared database, audit, and encryption layers.</p>
+        <div class="tech-badges">
+          <span class="badge">Next.js</span>
+          <span class="badge">Turborepo</span>
+          <span class="badge">Prisma</span>
+          <span class="badge">PostgreSQL</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/rescue-ops" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="SaaS">SaaS</span>
+        <h3>RoomKing CRM</h3>
+        <p>CRM for affordable rentals — WhatsApp-first lead capture with automatic intent extraction, listing freshness scoring, auto-matching, and one-click viewing bookings.</p>
+        <div class="tech-badges">
+          <span class="badge">Next.js 15</span>
+          <span class="badge">React 19</span>
+          <span class="badge">Prisma</span>
+          <span class="badge">Clerk</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/roomking-crm" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="AI Agent Infra">AI Agent Infra</span>
+        <h3>AIployee Bridge</h3>
+        <p>MCP server that turns the AIployee voice/chat-agent platform into typed tool calls — LLM clients build and edit agent flows in 3–5 calls instead of 20–30 rounds of browser scraping.</p>
+        <div class="tech-badges">
+          <span class="badge">TypeScript</span>
+          <span class="badge">MCP</span>
+          <span class="badge">Node.js</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/aiployee-bridge" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="Machine Learning">Machine Learning</span>
+        <h3>Tennis Tagger</h3>
+        <p>Automated tennis match analysis — match video in, Dartfish-compatible point-by-point CSV out. Fine-tuned YOLO ball detection, pose and court-homography features, shipped as a one-click Windows installer.</p>
+        <div class="tech-badges">
+          <span class="badge">Python</span>
+          <span class="badge">PyTorch</span>
+          <span class="badge">YOLOv8</span>
+          <span class="badge">Go</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/tennis-tagger-monkey" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="Dev Tooling">Dev Tooling</span>
+        <h3>gox</h3>
+        <p>Compile-time augmentation layer for Go — sum types, exhaustive matching, and contracts, implemented at the AST/type-system level rather than against an SDK.</p>
+        <div class="tech-badges">
+          <span class="badge">Go</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/gox" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="Chrome Extension">Chrome Extension</span>
+        <h3>Video Downloader</h3>
+        <p>Universal browser-based video downloader — Chrome extension front-end with a Go backend wrapping yt-dlp. Handles YouTube, HLS, DASH, and 1000+ sites.</p>
+        <div class="tech-badges">
+          <span class="badge">Go</span>
+          <span class="badge">Chrome APIs</span>
+          <span class="badge">yt-dlp</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/video-downloader" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="Web App">Web App</span>
+        <h3>AIployee Emailer</h3>
+        <p>Multi-tenant transactional email service — clients bring their own SMTP; runs on a single VPS at roughly $5/month.</p>
+        <div class="tech-badges">
+          <span class="badge">TypeScript</span>
+          <span class="badge">Node.js</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/aiployee-emailer" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
 
       <article class="card fade-in">
         <span class="category-tag" data-category="Web App">Web App</span>
@@ -169,6 +293,19 @@
         </div>
         <div class="card-links">
           <a href="https://github.com/liamparker17/tamper-monkey-acf-filler" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <span class="category-tag" data-category="Systems">Systems</span>
+        <h3>Radco Workticket ASM</h3>
+        <p>The workshop ticketing tool rewritten in x86 FASM assembly — purely for the exercise.</p>
+        <div class="tech-badges">
+          <span class="badge">x86 Assembly</span>
+          <span class="badge">FASM</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/liamparker17/radco-workticket-asm" target="_blank" rel="noopener noreferrer" class="btn-github">View on GitHub</a>
         </div>
       </article>
 

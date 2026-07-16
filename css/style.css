@@ -212,6 +212,31 @@ nav {
   color: #f85149;
 }
 
+.category-tag[data-category="SaaS"] {
+  background: rgba(31, 111, 235, 0.25);
+  color: #79c0ff;
+}
+
+.category-tag[data-category="AI Agent Infra"] {
+  background: rgba(45, 186, 176, 0.2);
+  color: #39d2c0;
+}
+
+.category-tag[data-category="Machine Learning"] {
+  background: rgba(219, 97, 162, 0.2);
+  color: #ff9bce;
+}
+
+.category-tag[data-category="Dev Tooling"] {
+  background: rgba(240, 136, 62, 0.2);
+  color: #f0883e;
+}
+
+.category-tag[data-category="Systems"] {
+  background: rgba(139, 148, 158, 0.2);
+  color: #8b949e;
+}
+
 .card h3 {
   font-size: 1.3rem;
   font-weight: 600;
